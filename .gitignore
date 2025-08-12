@@ -137,3 +137,48 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Temporary TypeScript SDK clone (untracked)
+typescript-sdk-temp-clone/
+
+# MCP Server specific ignores
+# Development and runtime logs
+logs/
+*.log
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Development and debugging files
+test-server.ts
+server_new.ts
+*.temp
+*.tmp
+
+# IDE and editor files (additional)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/*.code-workspace
+*.swp
+*.swo
+*~
+
+# Development notes and temporary files
+Notes/
+DEVELOPMENT_LOG.md
+init-project.ps1
+
+# Data and configuration (if containing sensitive info)
+data/
+config/*.local.*
+
+# Build artifacts that should be generated during deployment
+# Uncomment the next line if dist/ should be generated at deploy time
+# dist/
+/tasks
